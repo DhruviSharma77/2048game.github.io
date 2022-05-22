@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      </style>
+    <meta charset="utf-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="info">
+        <h1>2048</h1>
+        <div class="score-container">
+          <div class="score-title">score</div>
+          <span id="score">0</span>
+        </div>
+      </div>
+      
+      <div class="container">
+      <div class="info">
+       
+        <span id="result">Join the numbers and get to the <b>2048</b> tile!<br><a href="#modal" class="Topic">How To Play!!!</a></span>
+        
+        
+          <button type="button" class="button" onClick="window.location.reload();">New Game</button>
+        </div>
+      </div>
+      
+      <div class="open">
+         
+     
+      <div id="modal">
+        <div class="modal__window">
+            <a class="modal__close" href="#">X</a>
+            <h2>Hey there! :)</h2>
+            <p>HOW TO PLAY: Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach 2048!</p> 
+        </div>
+      </div>
+      <div class="grid"></div>
+    </div>
+
+    
+    
+  </body>
+</html>
